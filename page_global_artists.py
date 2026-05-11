@@ -1,10 +1,10 @@
 """
-page_workload.py — Studio Workload Dashboard
+page_global_artists.py — Studio Workload Dashboard
 """
 import streamlit as st
 import pandas as pd
 
-def page_workload(db, nav_fn):
+def page_global_artists(db, nav_fn):
     """Studio-wide workload overview."""
     st.markdown('<div class="section-header">📊 Studio Workload Dashboard</div>', unsafe_allow_html=True)
 
